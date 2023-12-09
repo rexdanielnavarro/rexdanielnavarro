@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "YrvynCalugay-Block4-Quiz"
+rootProject.name = "Rex-Navarro-BLOCK4-QUIZ"
 include(":app")
- 

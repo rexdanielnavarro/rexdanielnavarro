@@ -4,27 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bgmain"
     tools:context=".MainActivity">
 
+
     <EditText
-        android:id="@+id/et_email"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:background="@drawable/edittext_border2"
+        android:background="@drawable/borderlogin"
         android:ems="10"
         android:hint="Username"
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textColorHint="#000000"
+        app:flow_horizontalBias="0.496"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54"
+        app:layout_constraintVertical_bias="0.554"
         tools:ignore="Autofill" />
-
 
     <Button
         android:id="@+id/bt_su"
@@ -36,15 +36,17 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintVertical_bias="0.838" />
 
     <EditText
         android:id="@+id/et_password"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:background="@drawable/edittext_border2"
+        android:layout_marginBottom="248dp"
+        android:background="@drawable/borderlogin"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -52,9 +54,8 @@
         android:textColorHint="#050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_email"
         app:layout_constraintVertical_bias="0.071"
         tools:ignore="Autofill" />
 
@@ -67,19 +68,29 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_password"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:background="@drawable/about_us_24"
+        app:srcCompat="@drawable/about_us_24"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="323dp"
-        android:layout_height="275dp"
+        android:id="@+id/mainlogo"
+        android:layout_width="344dp"
+        android:layout_height="272dp"
+        android:layout_marginBottom="360dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/mainlogo" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
