@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rex_navarro_block4_quiz"
+    namespace = "com.yrvyncalugay.block4.P1.quiz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.rex_navarro_block4_quiz"
+        applicationId = "com.yrvyncalugay.block4.P1.quiz"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -20,7 +20,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {

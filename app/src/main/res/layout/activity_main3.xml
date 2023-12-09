@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="169dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c2"
+        android:layout_width="169dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/logo"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="White Coffe"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="256dp"/>
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Black Coffe"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="169dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c4"
+        android:layout_width="169dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Caramel Machiato"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Mocha Frappucino"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:text="ORDER"
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/black"
+        android:text="CANCEL"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="635dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
